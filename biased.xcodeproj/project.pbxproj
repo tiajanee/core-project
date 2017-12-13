@@ -7,13 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0C3E65961FD8B0D200741EB3 /* FalseResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C3E65951FD8B0D200741EB3 /* FalseResultViewController.swift */; };
+		0C88B82C1FD5EAEE0098ADB6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88B82B1FD5EAEE0098ADB6 /* User.swift */; };
+		0C88B86C1FD728C90098ADB6 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88B86B1FD728C90098ADB6 /* SignUpViewController.swift */; };
+		0C88B86E1FD72EE70098ADB6 /* Sign.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88B86D1FD72EE70098ADB6 /* Sign.swift */; };
+		0C88B8721FD8ADB80098ADB6 /* TriviaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0C88B8711FD8ADB80098ADB6 /* TriviaViewController.swift */; };
+		0CADC3E71FE08349002E00AC /* TrueResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADC3E61FE08349002E00AC /* TrueResultViewController.swift */; };
+		0CADC3E91FE09FDB002E00AC /* EndGameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CADC3E81FE09FDB002E00AC /* EndGameViewController.swift */; };
 		0CF555A51FD5D99A00D6F7AB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555A41FD5D99A00D6F7AB /* AppDelegate.swift */; };
-		0CF555A71FD5D99A00D6F7AB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555A61FD5D99A00D6F7AB /* ViewController.swift */; };
+		0CF555A71FD5D99A00D6F7AB /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555A61FD5D99A00D6F7AB /* LogInViewController.swift */; };
 		0CF555AA1FD5D99A00D6F7AB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF555A81FD5D99A00D6F7AB /* Main.storyboard */; };
 		0CF555AC1FD5D99A00D6F7AB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0CF555AB1FD5D99A00D6F7AB /* Assets.xcassets */; };
 		0CF555AF1FD5D99A00D6F7AB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0CF555AD1FD5D99A00D6F7AB /* LaunchScreen.storyboard */; };
 		0CF555BA1FD5D99A00D6F7AB /* biasedTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555B91FD5D99A00D6F7AB /* biasedTests.swift */; };
 		0CF555C51FD5D99A00D6F7AB /* biasedUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555C41FD5D99A00D6F7AB /* biasedUITests.swift */; };
+		0CF555D31FD5DAC100D6F7AB /* IdentityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0CF555D21FD5DAC100D6F7AB /* IdentityViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +42,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0C3E65951FD8B0D200741EB3 /* FalseResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FalseResultViewController.swift; sourceTree = "<group>"; };
+		0C88B82B1FD5EAEE0098ADB6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		0C88B86B1FD728C90098ADB6 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		0C88B86D1FD72EE70098ADB6 /* Sign.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sign.swift; sourceTree = "<group>"; };
+		0C88B8711FD8ADB80098ADB6 /* TriviaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TriviaViewController.swift; sourceTree = "<group>"; };
+		0CADC3E61FE08349002E00AC /* TrueResultViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrueResultViewController.swift; sourceTree = "<group>"; };
+		0CADC3E81FE09FDB002E00AC /* EndGameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EndGameViewController.swift; sourceTree = "<group>"; };
 		0CF555A11FD5D99A00D6F7AB /* biased.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = biased.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF555A41FD5D99A00D6F7AB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		0CF555A61FD5D99A00D6F7AB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0CF555A61FD5D99A00D6F7AB /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		0CF555A91FD5D99A00D6F7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0CF555AB1FD5D99A00D6F7AB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0CF555AE1FD5D99A00D6F7AB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +62,7 @@
 		0CF555C01FD5D99A00D6F7AB /* biasedUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = biasedUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0CF555C41FD5D99A00D6F7AB /* biasedUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = biasedUITests.swift; sourceTree = "<group>"; };
 		0CF555C61FD5D99A00D6F7AB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0CF555D21FD5DAC100D6F7AB /* IdentityViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IdentityViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +90,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0CADC3EB1FE09FF4002E00AC /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				0C88B86B1FD728C90098ADB6 /* SignUpViewController.swift */,
+				0C88B8711FD8ADB80098ADB6 /* TriviaViewController.swift */,
+				0CF555A61FD5D99A00D6F7AB /* LogInViewController.swift */,
+				0CF555D21FD5DAC100D6F7AB /* IdentityViewController.swift */,
+				0CADC3E81FE09FDB002E00AC /* EndGameViewController.swift */,
+				0CADC3E61FE08349002E00AC /* TrueResultViewController.swift */,
+				0C3E65951FD8B0D200741EB3 /* FalseResultViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		0CADC3EC1FE0A01D002E00AC /* Codable Files */ = {
+			isa = PBXGroup;
+			children = (
+				0C88B86D1FD72EE70098ADB6 /* Sign.swift */,
+				0C88B82B1FD5EAEE0098ADB6 /* User.swift */,
+			);
+			path = "Codable Files";
+			sourceTree = "<group>";
+		};
 		0CF555981FD5D99A00D6F7AB = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +136,10 @@
 		0CF555A31FD5D99A00D6F7AB /* biased */ = {
 			isa = PBXGroup;
 			children = (
+				0CADC3EB1FE09FF4002E00AC /* ViewControllers */,
 				0CF555A41FD5D99A00D6F7AB /* AppDelegate.swift */,
-				0CF555A61FD5D99A00D6F7AB /* ViewController.swift */,
 				0CF555A81FD5D99A00D6F7AB /* Main.storyboard */,
+				0CADC3EC1FE0A01D002E00AC /* Codable Files */,
 				0CF555AB1FD5D99A00D6F7AB /* Assets.xcassets */,
 				0CF555AD1FD5D99A00D6F7AB /* LaunchScreen.storyboard */,
 				0CF555B01FD5D99A00D6F7AB /* Info.plist */,
@@ -187,6 +227,9 @@
 		0CF555991FD5D99A00D6F7AB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				KnownAssetTags = (
+					0,
+				);
 				LastSwiftUpdateCheck = 0900;
 				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = hannahmontana;
@@ -259,8 +302,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0CF555A71FD5D99A00D6F7AB /* ViewController.swift in Sources */,
+				0C88B86C1FD728C90098ADB6 /* SignUpViewController.swift in Sources */,
+				0C88B82C1FD5EAEE0098ADB6 /* User.swift in Sources */,
+				0C88B86E1FD72EE70098ADB6 /* Sign.swift in Sources */,
+				0C88B8721FD8ADB80098ADB6 /* TriviaViewController.swift in Sources */,
+				0CF555A71FD5D99A00D6F7AB /* LogInViewController.swift in Sources */,
+				0CADC3E71FE08349002E00AC /* TrueResultViewController.swift in Sources */,
+				0CADC3E91FE09FDB002E00AC /* EndGameViewController.swift in Sources */,
 				0CF555A51FD5D99A00D6F7AB /* AppDelegate.swift in Sources */,
+				0CF555D31FD5DAC100D6F7AB /* IdentityViewController.swift in Sources */,
+				0C3E65961FD8B0D200741EB3 /* FalseResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
