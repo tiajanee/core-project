@@ -10,11 +10,15 @@ import UIKit
 
 class TrueResultViewController: UIViewController {
     @IBOutlet weak var answerDisplay: UITextView!
-    
+   
+    @IBOutlet weak var nextQuestion: UIButton!
     @IBOutlet weak var trueLabel: UILabel!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let myColor: UIColor = UIColor.white
+        nextQuestion.layer.borderColor = myColor.cgColor
+        nextQuestion.layer.borderWidth = 2.0
     }
     
     override func didReceiveMemoryWarning() {

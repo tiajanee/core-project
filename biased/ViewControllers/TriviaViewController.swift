@@ -38,7 +38,7 @@ class TriviaViewController: UIViewController {
     }
     
     override func viewWillAppear(_ animated: Bool) {
-        super.viewDidAppear(animated)
+        super.viewWillAppear(animated)
 
         print(TriviaViewController.counter)
         if TriviaViewController.counter > 10 {

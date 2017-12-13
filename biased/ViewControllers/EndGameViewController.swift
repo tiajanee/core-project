@@ -17,9 +17,13 @@ class EndGameViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        let myColor : UIColor = UIColor.black
-//        playAgain.layer.borderWidth = 2.0
-//        playAgain.layer.borderColor = myColor.cgColor
+        let myColor : UIColor = UIColor.black
+        playAgain.layer.borderWidth = 2.0
+        playAgain.layer.borderColor = myColor.cgColor
+        logOutButton.layer.borderWidth = 2.0
+        logOutButton.layer.borderColor = myColor.cgColor
+        
+        TriviaViewController.counter = 0
         
     }
     
